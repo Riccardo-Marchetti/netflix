@@ -29,15 +29,15 @@ const TitleMain = () => {
             <i className="bi bi-grid-3x3 icons"></i>
           </div>
         </div>
-        <h4 className="mt-4">Trending Now</h4>
+        <h4 className="mt-4">Star Wars</h4>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           <MainFilm saga="Star Wars" />
         </Row>
-        <h4>Watch it Again</h4>
+        <h4>Harry Potter</h4>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           <MainFilm saga="Harry Potter" />
         </Row>
-        <h4>New Releases</h4>
+        <h4>Avengers</h4>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           <MainFilm saga="Avengers" />
         </Row>
