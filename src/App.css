@@ -135,3 +135,10 @@ footer {
     display: none !important;
   }
 }
+.gio {
+  max-height: 200px;
+  max-width: 300px;
+}
+.car {
+  width: 300px;
+}

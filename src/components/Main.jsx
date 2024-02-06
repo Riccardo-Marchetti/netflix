@@ -55,9 +55,9 @@ class MainFilm extends Component {
         )}
         {movies.splice(0, 6).map((film) => {
           return (
-            <Col className="mb-2 text-center px-1" key={film.imdbID}>
+            <Col className="mb-2 text-center px-1 gio" key={film.imdbID}>
               <img
-                className="img-fluid image-film justify-content-center "
+                className="img-fluid image-film justify-content-center car"
                 src={film.Poster}
                 alt={film.Type}
               />

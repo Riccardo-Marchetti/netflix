@@ -30,7 +30,7 @@ const TitleMain = () => {
           </div>
         </div>
         <h4 className="mt-4">Star Wars</h4>
-        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 ">
           <MainFilm saga="Star Wars" />
         </Row>
         <h4>Harry Potter</h4>
