@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Dropdown from "react-bootstrap/Dropdown";
 import Image from "react-bootstrap/Image";
 import Logo from "../image/logo.png";
+import { Link } from "react-router-dom";
 import Logo2 from "../image/avatar.png";
 
 const CustomNavbar = () => {
@@ -19,12 +20,13 @@ const CustomNavbar = () => {
         />
         <Navbar.Collapse>
           <Nav className="me-auto mb-2 mb-lg-0 nav-ul">
-            <Nav.Link href="#home" className="active li">
+            <Link className="nav-link" to="/">
               Home
-            </Nav.Link>
-            <Nav.Link href="#link" className="disabled text-white-50">
-              Tv Shows
-            </Nav.Link>
+            </Link>
+            <Link className="nav-link" to="/tv-shows">
+              TV Shows
+            </Link>
+
             <Nav.Link href="#link" className="disabled text-white-50">
               Movies
             </Nav.Link>

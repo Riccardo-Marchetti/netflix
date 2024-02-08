@@ -34,6 +34,14 @@
     transform: rotate(360deg);
   }
 } */
+html,
+body,
+main {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
 body {
   background-color: #141414 !important;
 }
@@ -135,7 +143,7 @@ footer {
     display: none !important;
   }
 }
-.gio {
+.wid {
   max-height: 200px;
   max-width: 300px;
 }

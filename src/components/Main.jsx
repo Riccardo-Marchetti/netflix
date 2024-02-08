@@ -2,6 +2,7 @@ import { Component } from "react";
 import Col from "react-bootstrap/Col";
 import Spinner from "react-bootstrap/Spinner";
 import Alert from "react-bootstrap/Alert";
+import { Link } from "react-router-dom";
 
 class MainFilm extends Component {
   state = {
@@ -55,12 +56,15 @@ class MainFilm extends Component {
         )}
         {movies.splice(0, 6).map((film) => {
           return (
-            <Col className="mb-2 text-center px-1 gio" key={film.imdbID}>
-              <img
-                className="img-fluid image-film justify-content-center car"
-                src={film.Poster}
-                alt={film.Type}
-              />
+            <Col className="mb-2 text-center px-1 wid" key={film.imdbID}>
+              <Link to={`/movie-details/${film.imdbID}`} key={film.imdbID}>
+                {" "}
+                <img
+                  className="img-fluid image-film justify-content-center car"
+                  src={film.Poster}
+                  alt={film.Type}
+                />{" "}
+              </Link>
             </Col>
           );
         })}
